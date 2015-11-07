@@ -12,7 +12,7 @@
   },
 
   "commands": {
-    "project-stats": "Tools.ProjectStats -h"
+    "project-stats": "Tools.ProjectStats"
   },
 
   "frameworks": {
