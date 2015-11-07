@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Produces stats about a project",
+  "authors": [ "nocture.dk" ],
+  "projectUrl": "http://www.nocture.dk",
+
+  "dependencies": {
+    "Microsoft.Extensions.CommandLineUtils.Sources": {
+      "version": "1.0.0-*",
+      "type": "build"
+    }
+  },
+
+  "commands": {
+    "project-stats": "Tools.ProjectStats -h"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}

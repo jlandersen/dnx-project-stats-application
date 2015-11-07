@@ -1,0 +1,84 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Microsoft.Extensions.CommandLineUtils.Sources/1.0.0-rc1-16048": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "Microsoft.Extensions.CommandLineUtils.Sources/1.0.0-rc1-16048": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "Microsoft.Extensions.CommandLineUtils.Sources/1.0.0-rc1-16048": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.CommandLineUtils.Sources/1.0.0-rc1-16048": {
+      "type": "package",
+      "sha512": "Cm3fjfqUordXR4bgpsKWIN2oSA3NDlt9fAAdf/McgVdqhPoEeH4XixYJq/8b8xkMkZD8CtAxEkO8wvRTm2suWw==",
+      "files": [
+        "lib/dotnet5.4/Microsoft.Extensions.CommandLineUtils.Sources.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.CommandLineUtils.Sources.xml",
+        "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.dll",
+        "lib/net451/Microsoft.Extensions.CommandLineUtils.Sources.xml",
+        "Microsoft.Extensions.CommandLineUtils.Sources.1.0.0-rc1-16048.nupkg",
+        "Microsoft.Extensions.CommandLineUtils.Sources.1.0.0-rc1-16048.nupkg.sha512",
+        "Microsoft.Extensions.CommandLineUtils.Sources.nuspec",
+        "shared/AnsiConsole.cs",
+        "shared/CommandArgument.cs",
+        "shared/CommandLineApplication.cs",
+        "shared/CommandOption.cs",
+        "shared/CommandOptionType.cs",
+        "shared/CommandParsingException.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.Extensions.CommandLineUtils.Sources >= 1.0.0-*"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}
